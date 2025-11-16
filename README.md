@@ -37,7 +37,6 @@ qr-code-component/
 │   │   └── _responsive.scss
 │   └── main.scss                 # File SASS source
 ├── style.css                     # File CSS yang di-compile dari SASS
-├── style.css.map                 # File CSS yang di-minified
 ├── images/
 │   ├── favicon-32x32.png
 │   └── image-qr-code.png
