@@ -1,0 +1,17 @@
+// Responsive adjustments
+@media (max-width: $mobile) {
+  body {
+    padding: 16px;
+  }
+  
+  .qr-card {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop) {
+  .container {
+    padding: 0;
+  }
+}

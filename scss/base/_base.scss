@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  font-size: 15px;
+  font-weight: $fw-normal;
+  background-color: $slate-300;
+  min-height: 100vh;
+  @include flex-center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+// Main container
+.container {
+  @include flex-center;
+  width: 100%;
+  max-width: 1440px;
+  flex: 1;
+}
